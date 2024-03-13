@@ -4,7 +4,6 @@ import br.com.anthony.application.gateways.UserGateway;
 import br.com.anthony.domain.entity.User;
 import br.com.anthony.infrastructure.persistence.UserEntity;
 import br.com.anthony.infrastructure.persistence.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserRepositoryGateway implements UserGateway {
     private final UserRepository userRepository;

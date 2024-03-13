@@ -2,8 +2,10 @@ package br.com.anthony.infrastructure.persistence;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
 
 @Data
+@Table("USER")
 public class UserEntity {
     @Id
     private Long id;
